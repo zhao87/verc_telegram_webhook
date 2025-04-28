@@ -1,0 +1,12 @@
+{
+  "name": "telegram-webhook",
+  "version": "1.0.0",
+  "description": "一个用于 Telegram Webhook 的 Node.js 服务器",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
