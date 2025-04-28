@@ -16,3 +16,9 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`服务器运行在端口 ${port}`);
 });
+
+const port = process.env.PORT || 3000;
+console.log(`Vercel 监听的端口是：${port}`);
+app.listen(port, () => {
+    console.log(`服务器运行在端口 ${port}`);
+});
